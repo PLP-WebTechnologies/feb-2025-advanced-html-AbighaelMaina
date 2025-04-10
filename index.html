@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Webpage</title>
+</head>
+<body>
+  <h1>Welcome to My Simple Webpage</h1>
+  <p>This is a sample webpage that shows how to use multimedia, forms, tables, images, and lists in HTML5.</p>
+
+  <!-- Unordered list -->
+  <h2>Things I Like</h2>
+  <ul>
+    <li>Music</li>
+    <li>Movies</li>
+    <li>Learning new skills</li>
+    <li>Cooking</li>
+    <li>Traveling</li>
+  </ul>
+
+  <!-- Embedded Image -->
+  <h2>Nature is Beautiful</h2>
+  <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg" alt="Nature photo" width="450">
+
+  <!-- Table -->
+  <h2>My Friends' Contact Info</h2>
+  <table border="1" cellpadding="8">
+    <tr>
+      <th>Name</th>
+      <th>Location</th>
+      <th>Phone</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>Brian</td>
+      <td>Nairobi</td>
+      <td>0712345678</td>
+      <td>brian@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Mercy</td>
+      <td>Kiambu</td>
+      <td>0798765432</td>
+      <td>mercy@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Daniel</td>
+      <td>Thika</td>
+      <td>0700112233</td>
+      <td>danny5@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Juma</td>
+      <td>Mombasa</td>
+      <td>0722334455</td>
+      <td>Juma@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Faith</td>
+      <td>Nakuru</td>
+      <td>0755667788</td>
+      <td>faith@gmail.com</td>
+    </tr>
+  </table>
+
+  <!-- Registration Form -->
+  <h2>Sign Up Below</h2>
+  <form action="#" method="post">
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="e.g.Abighael Maina" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="abighaelmaina@gmail.com" required><br><br>
+
+    <label for="password">Create Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="at least 6 characters" minlength="6" required><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <label for="course">Course of Interest:</label><br>
+    <select id="course" name="course" required>
+      <option value="">--Select--</option>
+      <option value="web">Web Development</option>
+      <option value="design">Python</option>
+      <option value="cyber">Data base design</option>
+    </select><br><br>
+
+    <p>Select your skills:</p>
+    <input type="checkbox" id="html" name="skills" value="HTML">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" name="skills" value="CSS">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="js" name="skills" value="JavaScript">
+    <label for="js">JavaScript</label><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+  <!-- Audio -->
+  <h2>Listen to This</h2>
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Video -->
+  <h2>Watch This Video</h2>
+  <video width="480" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <footer>
+    <p>© 2025 | Created by Abighael Maina</p>
+  </footer>
+</body>
+</html>
